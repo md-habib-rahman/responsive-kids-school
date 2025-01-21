@@ -206,6 +206,11 @@ header {
   margin: 30px;
 }
 
+.nav-icon img:hover {
+  background-color: #01acfd;
+  scale: 0.9;
+}
+
 .stories-section {
   padding-top: 50px;
   padding-bottom: 60px;
