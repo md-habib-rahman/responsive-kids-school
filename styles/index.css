@@ -119,13 +119,107 @@ header {
 }
 
 .banner-image img {
-	width: 100%          ;
+  width: 100%;
+}
+
+.curriculum {
+  
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 50px;background-image: url("../assets/bg.png");
+  background-size:cover;
+ 
+  background-repeat: no-repeat;
+}
+.curriculum-title {
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  margin-bottom: 80px;
+}
+
+.curriculum-cards {
+  /* display: ; */
+  gap: 30px;
+}
+
+.curriculum-card {
+  border-radius: 18px;
+  box-shadow: inset 0 0 28px 0.5px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.curriculum-card h4 {
+  font-size: 1.5rem;
+  color: #202020;
+}
+
+.curriculum-card p {
+  font-size: 0.9rem;
+  color: #808080;
+}
+
+.curriculum-card a {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.card-1 {
+  border: 1px solid #def5ff;
+
+  background-color: rgb(255, 255, 255);
+  
+  background: linear-gradient(
+    180deg,
+    rgba(222, 245, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  
+}
+.card-2 {
+  border: 1px solid #fff4dc;
+  background: rgb(255, 244, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 244, 220, 1) 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+}
+
+.card-3 {
+  border: 1px solid #f2e8ff;
+  background: rgb(238, 225, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 225, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+}
+
+.nav-icon img {
+  background-color: #fea301;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  margin: 30px;
+}
+
+.stories-section{
+	background-image: url("../assets/bg.png");
+	/* background: rgb(254,163,1); */
+	/* background: rgb(255,214,141); */
+	background: linear-gradient(0deg, rgba(255,214,141,1) 0%, rgba(247,247,247,1) 100%);
+	
 }
 
 @media screen and (max-width: 576px) {
   .nav-logo-text,
   .nav-menu,
-  .nav-button {
+  .nav-button,
+  .nav-icon {
     display: none;
   }
   .nav-bar {
@@ -135,6 +229,13 @@ header {
   .banner {
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  .curriculum-cards {
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-bottom: 50px;
   }
 }
 
