@@ -206,6 +206,10 @@ header {
   margin: 30px;
 }
 
+.ticker {
+  font-size: 1.5rem;
+}
+
 .nav-icon img:hover {
   background-color: #01acfd;
   scale: 0.9;
