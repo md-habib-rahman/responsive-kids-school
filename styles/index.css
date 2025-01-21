@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Quicksand", serif;
+}
+
+/* Shared styles */
+
+.raleway-font > {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+.color-orange {
+  color: #fea301;
+}
+.color-sky-blue {
+  color: #01acfd;
+}
+.color-cyan {
+  color: #05d4df;
+}
+.color-indigo {
+  color: #5d58ef;
+}
+
+.color-white {
+  color: #fff;
+}
+.color-medium-gray {
+  color: #808080;
+}
+.center-margin {
+  margin: 0 auto;
+}
+
+/* Header style starts here */
+header {
+  background-color: #f7f7f7;
+}
+
+.nav-bar {
+  max-width: 1160px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-logo {
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-items {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  gap: 30px;
+}
+.nav-button button {
+  border: none;
+  background-color: #fea301;
+  border-radius: 12px;
+  padding: 10px 60px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
