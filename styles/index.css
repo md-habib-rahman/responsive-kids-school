@@ -288,28 +288,23 @@ header {
 }
 
 .story-card-text {
-  /* padding: 40px; */
-  font-size: 0.9rem;
   padding: 0 40px;
 }
-.story-card-text-primary > h5 {
-  /* padding: 40px; */
+#story-card-1-text > h5 {
   font-size: 1.5rem;
 }
 
-.story-card-1.story-card-text h5 {
-  /* padding: 40px; */
+.story-card-text h5 {
   font-size: 0.9rem;
 }
 
-.story-card-text p {
-  /* padding: 40px; */
+#story-card-1-text p {
   font-size: 0.9rem;
   color: #666666;
   margin-top: 30px;
 }
 
-.sotry-button {
+.story-button{
   margin-top: 30px;
   text-align: center;
 }
